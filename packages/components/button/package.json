@@ -1,0 +1,31 @@
+{
+  "name": "@pretty-ui-org/button",
+  "module": "index.ts",
+  "version": "0.0.0-alpha0.0.17",
+  "type": "module",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "keywords": [
+    "button"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lukis76/pretty-ui-org.git",
+    "directory": "packages/components/button"
+  },
+  "peerDependencies": {
+    "typescript": "^5",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "dependencies": {
+    "@pretty-ui-org/theme": "0.0.0-alpha0.0.2",
+    "@react-types/button": "^3"
+  },
+  "devDependencies": {
+    "@pretty-ui-org/icons": "workspace:*"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "@pretty-ui-org/react",
+  "author": "lucas manoguerra <kiu.manoguerra@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/components/*",
+    "packages/utils/*",
+    "packages/core/*"
+
+  ],
+  "module": "index.ts",
+  "version": "0.0.0-alpha0.0.28",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lukis76/pretty-ui-org.git"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "@types/react": "^18",
+    "@types/react-dom": "^18"
+  },
+  "peerDependencies": {
+    "typescript": "^5",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "bun": {
+    "overrides": {
+      "react": "^18",
+      "react-dom": "^18"
+    }
+  },
+  "engines": {
+    "bun": ">=1.x"
+  },
+  "packageManager": "bun@1.0.4",
+  "description": "To install dependencies:",
+  "bugs": {
+    "url": "https://github.com/Lukis76/pretty-ui-org/issues"
+  },
+  "homepage": "https://github.com/Lukis76/pretty-ui-org#readme",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test:init"
+  },
+  "keywords": [
+    "react"
+  ]
+}

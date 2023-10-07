@@ -1,0 +1,29 @@
+{
+  "name": "@pretty-ui-org/icons",
+  "author": "lucas manoguerra <kiu.manoguerra@gmail.com>",
+  "license": "MIT",
+  "version": "0.0.0-alpha0.0.13",
+  "module": "index.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "keywords": [
+    "icons"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lukis76/pretty-ui.git",
+    "directory": "packages/utils/icons"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "react": "^18"
+  }
+}

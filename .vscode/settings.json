@@ -1,0 +1,187 @@
+{
+  "explorer.fileNesting.enabled": true, // permitir navegación de directorios anidados
+  "editor.minimap.enabled": false, // desactivar minimapa
+  "editor.renderWhitespace": "all", // mostrar espacios en blanco
+  "editor.tabSize": 2, // tema de iconos
+  // "oneDarkPro.bold": true, // negrita en el tema One Dark Pro
+  // "oneDarkPro.italic": true, // cursiva en el tema One Dark Pro
+  "workbench.editor.languageDetection": true, // detectar idioma de archivos
+  "editor.fontFamily": "'JetBrains Mono','Cascadia Code','Droid Sans Mono', 'monospace', monospace", // tipografia
+  "editor.formatOnSave": true, // formato al guardar
+  "editor.fontWeight": "400", // ancho de la tipografia
+  "editor.fontLigatures": true, // ligaduras de caracteres
+  "editor.guides.bracketPairs": true, // mostrar colores guías de llaves
+  "editor.bracketPairColorization.enabled": true, // mostrar colores de pares de llaves
+  "editor.wordWrap": "on", // linea no scroll a la derecha, se posisiona por debajo sin ocupar otra lina
+  "editor.inlayHints.enabled": "on", // mostrar los hints en los inlays
+  "telemetry.telemetryLevel": "off", // Deshabilita la telemetría de VS Code
+  "editor.inlineSuggest.enabled": true, // tamaño de la tipografia
+  "editor.renderLineHighlight": "line", // resaltado de las líneas
+  "editor.cursorSmoothCaretAnimation": "on", // animación de la selección
+  "editor.cursorBlinking": "expand", //
+  "javascript.suggest.completeFunctionCalls": true, // habilita la autocompletación de llamadas de funciones
+  "typescript.suggest.completeFunctionCalls": true, // habilita la autocompletación de llamadas de funciones
+  "editor.cursorWidth": 5, // estilo de la selección
+  "editor.suggest.preview": true, // habilita la vista previa de los archivos
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  // "typescript.referencesCodeLens.enabled": true,
+  // "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "editor.guides.highlightActiveIndentation": "always", // resaltar indentación activa
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#213f79", // color de la pestaña activa
+    "editor.lineHighlightBorder": "#6777f3" // color de resaltado de líneas
+  },
+  "window.titleBarStyle": "custom", // eliminamos puntos y comas al formatiar con prettier
+  "files.autoSave": "afterDelay", // auto-salvar depois de X segundos
+  "gitlens.hovers.currentLine.over": "line", // mostrar el cursor en la línea actual
+  "gitlens.currentLine.enabled": true, // mostrar el cursor en la línea actual
+  "javascript.updateImportsOnFileMove.enabled": "always", // actualizar imports al mover archivos
+  "javascript.preferences.quoteStyle": "single", // comillas simples
+  "typescript.preferences.quoteStyle": "single", // comillas simples
+  "html.completion.attributeDefaultValue": "singlequotes", // comillas simples
+  "prettier.jsxSingleQuote": true, // comillas simples en JSX
+  "prettier.singleQuote": true, // comillas simples en todo el código
+  "prettier.semi": false, // remover los puntos y comas en JS
+  "errorLens.fontStyleItalic": true, // tipografia en el errorLens
+  "errorLens.excludeBySource": ["[eslint]"], // excluir errores de eslint
+
+  "errorLens.excludePatterns": [
+    "[\"**/*.{ts, js, jsx, tsx, css, html, php, rust}\"]"
+  ], // seguir el cursor en todos los errores
+  "errorLens.gutterIconsEnabled": true, // mostrar iconos en el errorLens
+  "errorLens.enabled": true, // mostrar el errorLens
+  "errorLens.fontSize": "1rem", // tamaño de la tipografia en el errorLens
+  "errorLens.statusBarColorsEnabled": true, // mostrar colores en el errorLens
+  "errorLens.statusBarMessageEnabled": true, // mostrar mensaje en el errorLens
+  "errorLens.statusBarIconsEnabled": true, // mostrar iconos en el errorLens
+  "errorLens.messageTemplate": "$message", // mostrar el mensaje en el errorLens
+  "errorLens.enabledDiagnosticLevels": ["error", "warning", "info", "hint"], // mostrar errores de todos los
+  "errorLens.severityText": ["ERROR", "WARNING", "INFO", "HINT"], // mostrar el errorLens
+  "errorLens.toogle": true,
+  "javascript.format.semicolons": "remove",
+  // "explorer.confirmDe/lete": false, // no confirmar eliminar archivos
+  "explorer.confirmDragAndDrop": false, // no confirmar arrastrar y soltar archivos
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // formatea predeterminadamente es other
+  "[javascript]": {
+    // "editor.defaultFormatter": "esbenp.prettier-vscode" // formatea predeterminadamente es prettier
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // formatea predeterminadamente es Rome
+  }, // formatea predeterminadamente es prettier
+  // "editor.codeActionsOnSave": {
+  //   "source.organizeImports.rome": true
+  // },
+  // "github.copilot.enable": {
+  //   "*": true,
+  //   "yaml": false,
+  //   "plaintext": true,
+  //   "markdown": true,
+  //   "repos": ["*"],
+  //   "javascript": true
+  // }, // habilitar copilot en github
+
+  "terminal.integrated.fontWeight": "700", // tipografia en la terminal
+  "terminal.integrated.fontFamily": " 'Hack Nerd font', 'JetBrains Mono', 'Cascadia Code'", // tamaño de la tipografia en la terminal
+  "terminal.integrated.defaultProfile.linux": "zsh", // terminal por defecto en linux
+  "terminal.integrated.cursorBlinking": true, // cursor en la terminal
+  "problems.showCurrentInStatus": true, // mostrar el error en el status bar
+  "eslint.alwaysShowStatus": true, // mostrar el error en el status bar
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "css"
+  ],
+  "errorLens.enabledInMergeConflict": true, // mostrar el errorLens en conflictos de merge
+  "errorLens.errorGutterIconColor": "#e45454",
+  "errorLens.enableOnDiffView": true,
+  "errorLens.fontWeight": "400",
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.useESLintClass": true,
+  "javascript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "markdown.preview.fontSize": 18,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "workbench.sideBar.location": "left",
+  "workbench.sidebar": "",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  //   "editor.tokenColorCustomizations": {
+  //     "[Tokyo Night]": { // or "[Tokyo Night Storm]"
+  //         "textMateRules": [{
+  //             "scope": [
+  //                 "comment",
+  //                 "meta.var.expr storage.type",
+  //                 "keyword.control.flow",
+  //                 "keyword.control.return",
+  //                 "meta.directive.vue punctuation.separator.key-value.html",
+  //                 "meta.directive.vue entity.other.attribute-name.html",
+  //                 "tag.decorator.js entity.name.tag.js",
+  //                 "tag.decorator.js punctuation.definition.tag.js",
+  //                 "storage.modifier"
+  //             ],
+  //             "settings": {
+  //                 "fontStyle": ""
+  //             }
+  //         }]
+  //     }
+  // },
+
+  // "oneDarkPro.bold": true, // negrita en el tema One Dark Pro
+  // "oneDarkPro.italic": true, // cursiva en el tema One Dark Pro
+  "diffEditor.codeLens": true, // habilita los códigos lens en el diff editor
+  "editor.codeLensFontSize": 16, // tamaño de fuente de los códigos lens
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact" // usar emmet dentro de JSX
+  },
+  "workbench.statusBar.visible": true, // Deshabilita la barra de estado
+  // "typescript.format.enable": true, // habilita el formato de TS
+  // "typescript.suggest.autoImports": true, // habilita la autocompletación de imports
+  // "typescript.format.insertSpaceAfterConstructor": true, // insertar espacio después de los constructores de TS
+  // "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true, // insertar espacio después de los corchetes de JSX
+  // "javascript.inlayHints.enumMemberValues.enabled": true, // habilita los valores de los enumerados en los hints
+  // "javascript.inlayHints.parameterNames.enabled": "all", // habilita los nombres de parámetros en los hints
+  // "javascript.inlayHints.parameterTypes.enabled": true, // habilita los tipos de parámetros en los hints
+  // "javascript.inlayHints.propertyDeclarationTypes.enabled": true, // habilita los tipos de propiedades en los hints
+  // "javascript.inlayHints.variableTypes.enabled": true, // habilita los tipos de variables en los hints
+  // "typescript.inlayHints.enumMemberValues.enabled": true, // habilita los valores de los enumerados en los hints
+  // "typescript.inlayHints.variableTypes.enabled": true, // habilita los tipos de variables en los hints
+  // "typescript.inlayHints.parameterTypes.enabled": true, // habilita los tipos de parámetros en los hints
+  // "typescript.inlayHints.propertyDeclarationTypes.enabled": true, // habilita los tipos de propiedades en los hints
+  // "typescript.inlayHints.parameterNames.enabled": "all",
+  // "typescript.autoClosingTags": true,
+  "autoBarrel.useImportAliasExportPattern": true,
+  // "CodeGPT.apiKey": "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",
+  // "screencastMode.onlyKeyboardShortcuts": true,
+  // "gitlens.defaultDateShortFormat": "",
+  "emojisense.languages": {
+    "javascript": true,
+    "javascriptreact": true,
+    "typescript": true,
+    "typescriptreact": true,
+    "markdown": true,
+    "plaintext": {
+      "markupCompletionsEnabled": false,
+      "emojiDecoratorsEnabled": false
+    },
+    "scminput": true,
+    "git-commit": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.linkedEditing": true,
+  "editor.stickyScroll.enabled": true,
+  "terminal.integrated.cursorWidth": 5,
+  // "rome_lsp.trace.server": "verbose",
+  // "tailwindCSS.emmetCompletions": true,
+  // "rome.lspBin": "",
+  "window.zoomLevel": -1,
+  "editor.fontSize": 16,
+  "editor.accessibilitySupport": "off"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "@pretty-ui-org/theme",
+  "version": "0.0.0-alpha0.0.2",
+  "type": "module",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "sideEffects": false,
+  "keywords": [
+    "theme",
+    "theming",
+    "design",
+    "ui",
+    "components",
+    "classNames",
+    "css"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lukis76/pretty-ui-org.git",
+    "directory": "packages/core/theme"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "tailwind-variants": "^0.1.14",
+    "tailwindcss": "^3"
+  },
+  "description": "To install dependencies:",
+  "bugs": {
+    "url": "https://github.com/Lukis76/pretty-ui-org/issues"
+  },
+  "homepage": "https://github.com/Lukis76/pretty-ui-org#readme",
+  "scripts": {
+    "test": "test:init"
+  },
+  "author": "lucas manoguerra <kiu.manoguerra@gmail.com>",
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}
