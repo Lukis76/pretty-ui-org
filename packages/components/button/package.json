@@ -1,10 +1,16 @@
 {
   "name": "@pretty-ui-org/button",
   "module": "index.ts",
-  "version": "0.0.0-alpha0.0.17",
+  "version": "0.0.0-alpha0.0.28",
   "type": "module",
   "main": "src/index.ts",
   "license": "MIT",
+  "scripts": {
+    "build": "tsup src --dts",
+    "build:fast": "tsup src",
+    "dev": "bun build:fast -- --watch",
+    "typecheck": "tsc --noEmit"
+  },
   "keywords": [
     "button"
   ],
@@ -17,15 +23,17 @@
     "directory": "packages/components/button"
   },
   "peerDependencies": {
-    "typescript": "^5",
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "^18"
   },
   "dependencies": {
     "@pretty-ui-org/theme": "0.0.0-alpha0.0.2",
-    "@react-types/button": "^3"
+    "@react-types/button": "^3",
+    "react-aria": "^3.29.0"
   },
   "devDependencies": {
-    "@pretty-ui-org/icons": "workspace:*"
+    "@pretty-ui-org/icons": "workspace:*",
+    "react": "^18",
+    "clean-package": "^2.2.0",
+    "tsup": "^7.2.0"
   }
 }

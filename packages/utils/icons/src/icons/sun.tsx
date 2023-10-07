@@ -1,7 +1,7 @@
 import { WrapperIcon } from "../wrapper-icon";
 import {IconSvgProps} from '../types'
 
-export const AnchorIcon = ({...props}: IconSvgProps)  => (
+export const SunIcon = ({...props}: IconSvgProps)  => (
     <WrapperIcon
     {...props}>
     <path

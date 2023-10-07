@@ -4,7 +4,8 @@
     "baseUrl": ".",
     "paths": {
       // "tailwind-variants": ["../../../node_modules/tailwind-variants"]
-    },
+    }
   },
-  "include": ["src/*", "index.ts"]
+  "include": ["src/**/*.{ts,tsx,js,jsx}", "src/*.{ts,tsx,js, jsx}"],
+  "exclude": ["node_modules","dist"]
 }

@@ -2,15 +2,14 @@
   "name": "@pretty-ui-org/icons",
   "author": "lucas manoguerra <kiu.manoguerra@gmail.com>",
   "license": "MIT",
-  "version": "0.0.0-alpha0.0.13",
+  "version": "0.0.0-alpha0.0.16",
   "module": "index.ts",
+  "main": "src/index.ts",
   "publishConfig": {
     "access": "public"
   },
   "sideEffects": false,
-  "files": [
-    "dist"
-  ],
+
   "type": "module",
   "keywords": [
     "icons"

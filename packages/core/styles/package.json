@@ -1,16 +1,15 @@
 {
-  "name": "@pretty-ui-org/theme",
-  "version": "0.0.0-alpha0.0.33",
+  "name": "@pretty-ui-org/styles",
+  "version": "0.0.0-alpha0.0.3",
   "type": "module",
-  "main": "src/index.ts",
+  "main": "src/index.css",
   "license": "MIT",
   "sideEffects": false,
   "keywords": [
     "theme",
-    "theming",
     "design",
+    "styles",
     "ui",
-    "components",
     "classNames",
     "css"
   ],
@@ -20,14 +19,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Lukis76/pretty-ui-org.git",
-    "directory": "packages/core/theme"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "tailwind-variants": "^0.1.14",
-    "tailwindcss": "^3"
+    "directory": "packages/core/styles"
   },
   "description": "To install dependencies:",
   "bugs": {
@@ -37,8 +29,5 @@
   "scripts": {
     "test": "test:init"
   },
-  "author": "lucas manoguerra <kiu.manoguerra@gmail.com>",
-  "devDependencies": {
-    "bun-types": "latest"
-  }
+  "author": "lucas manoguerra <kiu.manoguerra@gmail.com>"
 }
