@@ -1,7 +1,7 @@
 {
-  "name": "@pretty-ui-org/button",
+  "name": "@pretty-ui-org/tooltip",
   "module": "index.ts",
-  "version": "0.0.0-alpha0.0.29",
+  "version": "0.0.0-alpha0.0.1",
   "type": "module",
   "main": "src/index.ts",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "typecheck": "tsc --noEmit"
   },
   "keywords": [
-    "button"
+    "tooltip"
   ],
   "publishConfig": {
     "access": "public"
@@ -20,15 +20,13 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Lukis76/pretty-ui-org.git",
-    "directory": "packages/components/button"
+    "directory": "packages/components/tooltip"
   },
   "peerDependencies": {
     "react": "^18"
   },
   "dependencies": {
-    "@pretty-ui-org/theme": "0.0.0-alpha0.0.2",
-    "@react-types/button": "^3",
-    "react-aria": "^3.29.0"
+    "@pretty-ui-org/theme": "0.0.0-alpha0.0.3"
   },
   "devDependencies": {
     "@pretty-ui-org/icons": "workspace:*",
