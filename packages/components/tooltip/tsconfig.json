@@ -6,6 +6,5 @@
       // "tailwind-variants": ["../../../node_modules/tailwind-variants"]
     },
   },
-  "include": ["src/**/*.{ts,tsx,js,jsx}", "src/*.{ts,tsx,js, jsx}"],
-  "exclude": ["node_modules","dist"]
+  "include": ["src", "src/index.ts"]
 }

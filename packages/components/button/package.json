@@ -1,7 +1,7 @@
 {
   "name": "@pretty-ui-org/button",
   "module": "index.ts",
-  "version": "0.0.0-alpha0.0.29",
+  "version": "0.0.0-alpha0.0.33",
   "type": "module",
   "main": "src/index.ts",
   "license": "MIT",
@@ -23,17 +23,16 @@
     "directory": "packages/components/button"
   },
   "peerDependencies": {
-    "react": "^18"
+    "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@pretty-ui-org/theme": "0.0.0-alpha0.0.2",
-    "@react-types/button": "^3",
-    "react-aria": "^3.29.0"
+    "@pretty-ui-org/theme": "latest",
+    "@pretty-ui-org/styles": "latest"
   },
   "devDependencies": {
-    "@pretty-ui-org/icons": "workspace:*",
     "react": "^18",
     "clean-package": "^2.2.0",
-    "tsup": "^7.2.0"
+    "tsup": "^7.2.0",
+    "bun-types": "latest"
   }
 }

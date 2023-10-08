@@ -1,7 +1,7 @@
 {
   "name": "@pretty-ui-org/tooltip",
   "module": "index.ts",
-  "version": "0.0.0-alpha0.0.1",
+  "version": "0.0.0-alpha0.0.10",
   "type": "module",
   "main": "src/index.ts",
   "license": "MIT",
@@ -9,7 +9,8 @@
     "build": "tsup src --dts",
     "build:fast": "tsup src",
     "dev": "bun build:fast -- --watch",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "publish": "bun version"
   },
   "keywords": [
     "tooltip"
@@ -23,15 +24,16 @@
     "directory": "packages/components/tooltip"
   },
   "peerDependencies": {
-    "react": "^18"
+    "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@pretty-ui-org/theme": "0.0.0-alpha0.0.3"
+    "@pretty-ui-org/theme": "latest",
+    "@pretty-ui-org/cn": "latest"
   },
   "devDependencies": {
-    "@pretty-ui-org/icons": "workspace:*",
     "react": "^18",
     "clean-package": "^2.2.0",
-    "tsup": "^7.2.0"
+    "tsup": "^7.2.0",
+    "bun-types": "latest"
   }
 }

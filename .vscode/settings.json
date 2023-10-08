@@ -1,7 +1,7 @@
 {
   "explorer.fileNesting.enabled": true, // permitir navegación de directorios anidados
   "editor.minimap.enabled": false, // desactivar minimapa
-  "editor.renderWhitespace": "all", // mostrar espacios en blanco
+  "editor.renderWhitespace": "none", // mostrar espacios en blanco
   "editor.tabSize": 2, // tema de iconos
   // "oneDarkPro.bold": true, // negrita en el tema One Dark Pro
   // "oneDarkPro.italic": true, // cursiva en el tema One Dark Pro

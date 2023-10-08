@@ -10,6 +10,7 @@ const TooltipContent = React.forwardRef<HTMLDivElement, TooltipContentProps>(
     const Comp = 'div'
     return (
       <Comp
+        ref={ref}
         className={tooltipVariants({
           variant,
           size,
@@ -17,7 +18,6 @@ const TooltipContent = React.forwardRef<HTMLDivElement, TooltipContentProps>(
           position,
           className,
         })}
-        ref={ref}
         {...props}
       />
     )

@@ -6,7 +6,6 @@
     "packages/components/*",
     "packages/utils/*",
     "packages/core/*"
-
   ],
   "module": "index.ts",
   "version": "0.0.0-alpha0.0.28",

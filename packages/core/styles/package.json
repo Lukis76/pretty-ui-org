@@ -1,6 +1,6 @@
 {
   "name": "@pretty-ui-org/styles",
-  "version": "0.0.0-alpha0.0.3",
+  "version": "0.0.0-alpha0.0.6",
   "type": "module",
   "main": "src/index.css",
   "license": "MIT",
@@ -29,5 +29,11 @@
   "scripts": {
     "test": "test:init"
   },
-  "author": "lucas manoguerra <kiu.manoguerra@gmail.com>"
+  "author": "lucas manoguerra <kiu.manoguerra@gmail.com>",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
 }

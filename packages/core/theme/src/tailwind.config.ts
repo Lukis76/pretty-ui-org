@@ -6,9 +6,17 @@ export const config: Config = {
   content: [
     './node_modules/@pretty-ui-org/theme/**/*.{js,ts,jsx,tsx,mdx}',
     './node_modules/@pretty-ui-org/button/**/*.{js,ts,jsx,tsx,mdx}',
+    './node_modules/@pretty-ui-org/tooltip/**/*.{js,ts,jsx,tsx,mdx}',
+
   ],
   theme: {
     extend: {
+      animation: {
+        'tooltip-top': 'tooltip-top 0.2s linear both',
+        'tooltip-bottom': 'tooltip-bottom 0.2s linear both',
+        'tooltip-left': 'tooltip-left 0.2s linear both',
+        'tooltip-right': 'tooltip-right 0.2s linear both',
+      },
       colors: {
         solid: '#17c964',
         bordered: '#f31260',

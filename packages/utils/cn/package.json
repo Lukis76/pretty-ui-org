@@ -1,8 +1,8 @@
 {
-  "name": "@pretty-ui-org/icons",
+  "name": "@pretty-ui-org/cn",
   "author": "lucas manoguerra <kiu.manoguerra@gmail.com>",
   "license": "MIT",
-  "version": "0.0.0-alpha0.0.17",
+  "version": "0.0.0-alpha0.0.1",
   "module": "index.ts",
   "main": "src/index.ts",
   "publishConfig": {
@@ -11,18 +11,24 @@
   "sideEffects": false,
   "type": "module",
   "keywords": [
-    "icons"
+    "cn",
+    "twMerge",
+    "clsx",
+    "classValue"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Lukis76/pretty-ui.git",
-    "directory": "packages/utils/icons"
+    "directory": "packages/utils/cn"
+  },
+  "dependencies": {
+    "clsx": "^2",
+    "tailwind-merge": "^1"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  },
-  "devDependencies": {
-    "react": "^18",
-    "bun-types": "latest"
   }
 }

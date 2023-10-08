@@ -1,30 +1,31 @@
-import * as React from 'react'
+import { FC } from 'react'
 import { TooltipVariantProps } from './variants'
-import { TooltipProvider } from './tooltipProvider'
+import { WrapperTooltip } from './wrapper-tooltip'
 import { TooltipContent } from './tooltipContent'
-import { TooltipTrigger } from './tooltipTrigger'
 
 export interface TooltipProps
   extends React.HTMLAttributes<HTMLDivElement>,
     TooltipVariantProps {
   label: string
-  classNames?: Partial<Record<'content' | 'trigger' | 'root', string>>
+  classNames?: Partial<Record<'content' | 'wrapper', string>>
 }
 
-const Tooltip = React.forwardRef<HTMLDivElement, TooltipProps>(
-  ({ children, label, classNames }) => {
-    return (
-      <TooltipProvider className={classNames?.root || ''}>
-        <TooltipContent className={classNames?.content || ''}>
-          {label}
-        </TooltipContent>
-        <TooltipTrigger className={classNames?.trigger || ''}>
-          {children}
-        </TooltipTrigger>
-      </TooltipProvider>
-    )
-  }
-)
+const Tooltip: FC<TooltipProps> = ({
+  children,
+  label,
+  classNames,
+  ...props
+}) => {
+  return (
+    <WrapperTooltip className={classNames?.wrapper}>
+      <TooltipContent className={classNames?.content} {...props}>
+        {label}
+      </TooltipContent>
+      {children}
+    </WrapperTooltip>
+  )
+}
+
 Tooltip.displayName = 'PrettyUI.Tooltip'
 
 export { Tooltip }

@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { tv, VariantProps } from '@pretty-ui-org/theme'
+import '@pretty-ui-org/styles'
 
 const buttonVariants = tv({
   base: ['grid', 'place-content-center', 'box-border'],
@@ -54,8 +55,8 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     const Comp = 'button'
     return (
       <Comp
-        className={buttonVariants({ variant, size, className })}
         ref={ref}
+        className={buttonVariants({ variant, size, className })}
         {...props}
       />
     )
