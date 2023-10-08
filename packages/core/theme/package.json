@@ -35,7 +35,8 @@
   },
   "homepage": "https://github.com/Lukis76/pretty-ui-org#readme",
   "scripts": {
-    "test": "test:init"
+    "test": "test:init",
+    "public-up": "../../../up-version.sh && npm publish "
   },
   "author": "lucas manoguerra <kiu.manoguerra@gmail.com>"
 }

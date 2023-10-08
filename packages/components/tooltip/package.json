@@ -1,7 +1,7 @@
 {
   "name": "@pretty-ui-org/tooltip",
   "module": "index.ts",
-  "version": "0.0.0-alpha0.0.10",
+  "version": "0.0.0-alpha0.0.16",
   "type": "module",
   "main": "src/index.ts",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "build:fast": "tsup src",
     "dev": "bun build:fast -- --watch",
     "typecheck": "tsc --noEmit",
-    "publish": "bun version"
+    "public-up": "../../../up-version.sh && npm publish "
   },
   "keywords": [
     "tooltip"

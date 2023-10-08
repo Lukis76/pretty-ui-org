@@ -9,7 +9,8 @@
     "build": "tsup src --dts",
     "build:fast": "tsup src",
     "dev": "bun build:fast -- --watch",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "public-up": "../../../up-version.sh && npm publish "
   },
   "keywords": [
     "button"

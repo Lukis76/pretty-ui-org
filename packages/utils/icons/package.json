@@ -8,6 +8,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "public-up": "../../../up-version.sh && npm publish "
+  },
   "sideEffects": false,
   "type": "module",
   "keywords": [
